@@ -9,6 +9,7 @@
 @import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 @import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Zen+Kurenaido&display=swap');
 @import url('https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css');
@@ -111,6 +112,22 @@
 
 .attachedBars-2BCP3l svg path:hover {
     fill: rgb(100, 100, 100);
+}
+
+/**
+ * BetterDiscord
+ */
+
+.bd-switch .bd-switch-body {
+    background: rgba(230, 0, 0, 0.5);
+}
+
+.bd-switch .bd-switch-handle {
+    fill: black;
+}
+
+.bd-switch-checked .bd-switch-body {
+    background: var(--theme-color-one);
 }
 
 /** 
